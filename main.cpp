@@ -12,6 +12,10 @@ public:
         return (elts.empty());
     }
 
+    void print (){
+	cout << "Hello World!";
+    }
+
     void push(const T x){
         elts.push_back(x);
     }
